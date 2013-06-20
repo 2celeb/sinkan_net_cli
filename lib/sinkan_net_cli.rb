@@ -5,7 +5,6 @@ require "sinkan_net_cli/version"
 module SinkanNetCli
   require 'rubygems'
   require 'mechanize'
-  require 'pry'
 
   exit if ARGV.empty?
 
