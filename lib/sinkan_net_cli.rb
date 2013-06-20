@@ -7,7 +7,7 @@ module SinkanNetCli
   require 'mechanize'
   require 'pry'
 
-  exit ARGV.empty?
+  exit if ARGV.empty?
 
   a = Mechanize.new do |agent|
     agent.user_agent_alias = 'Mac Safari'
